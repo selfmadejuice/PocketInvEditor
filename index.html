@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Pocketinveditor : A inventory editor for Minecraft PE on Android" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Pocketinveditor</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/selfmadejuice/PocketInvEditor">View on GitHub</a>
+
+          <h1 id="project_title">Pocketinveditor</h1>
+          <h2 id="project_tagline">A inventory editor for Minecraft PE on Android</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/selfmadejuice/PocketInvEditor/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/selfmadejuice/PocketInvEditor/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>A <a href="https://play.google.com/store/apps/details?id=com.mojang.minecraftpe">Minecraft Pocket Edition</a> inventory editor for Android.</p>
+
+<p>This project uses the <a href="https://github.com/SpoutDev/SpoutNBT">SpoutNBT</a> library.</p>
+
+<h3>Compiling</h3>
+
+<p>PocketInvEditor is structured so that code common to both the free and the Pro version
+is included in the PocketInvEditor library project, while code for only the free version
+goes into the PocketInvEditor_app project.</p>
+
+<p>Building with the Ant buildscript from the Android SDK:</p>
+
+<p>1: git clone <a href="https://github.com/zhuowei/PocketInvEditor.git">https://github.com/zhuowei/PocketInvEditor.git</a></p>
+
+<p>2: git clone <a href="https://github.com/zhuowei/PocketInvEditor_app.git">https://github.com/zhuowei/PocketInvEditor_app.git</a></p>
+
+<p>3: cd PocketInvEditor_app</p>
+
+<p>4: (optional) ./builtfor_amazon.sh or ./builtfor_play.sh # this changes the app market link in the About menu - the default goes to Google Play</p>
+
+<p>5: ant clean debug install</p>
+
+<p>6: ???</p>
+
+<p>7: Profit!</p>
+
+<p>PocketInvEditor depends on an old version of SpoutNBT, which is included with this repository in the libs folder. </p>
+
+<p>I have not tested building with Eclipse; however, if you open PocketInvEditor_app,
+add PocketInvEditor as a library project, and add the spoutnbt-1.0.2-SNAPSHOT.jar to
+your classpath, it probably would build in Eclipse.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Pocketinveditor maintained by <a href="https://github.com/selfmadejuice">selfmadejuice</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
